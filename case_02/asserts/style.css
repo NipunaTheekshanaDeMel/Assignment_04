@@ -1,0 +1,37 @@
+body{
+    background: blue;
+}
+div:first-child{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    border: 9px solid white;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-top-color: red;
+    /*transition-property: background-color, border-radius;*/
+
+}
+div:first-child:hover{
+    transform: rotate(360deg) ;
+    transition-duration: 3s ;
+}
+
+h3{
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    z-index: 995964;
+
+}
